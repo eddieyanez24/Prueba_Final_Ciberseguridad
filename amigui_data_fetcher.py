@@ -4,8 +4,7 @@ from mongo import client
 
 def get_item(item):
     url = (
-        "https://svc-0-usf.hotyon.com/search?q=&apiKey=e417fce7-fd41-4b57-92a7-10807644a332&getProductDescription=0"
-        "&locale=es&collection=165868896341&skip=0&take=28&sort=-date")
+        "https://svc-0-usf.hotyon.com/search?q=&apiKey=e417fce7-fd41-4b57-92a7-10807644a332&getProductDescription=0&locale=es&collection=165868896341&skip=0&take=28&sort=-date")
 
     r = requests.get(url).json()
 
