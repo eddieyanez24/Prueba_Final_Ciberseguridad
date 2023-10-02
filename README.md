@@ -39,4 +39,6 @@ Se creo un servio web utilizando Python+Flask, lo podemos encontrar en el archiv
 - Se llego a completar los objetivos propuestos hay que recalcar que la mayor dificultad que se dio fue al momento de almacenar los datos en MongoDB ya que se producia un error al cargar los datos asi como tambien no se conectaba con el servidor de Mongo
 - Otro de los inconvenientes fue encontrar una pagina web que permitiera extraer los datos ya que la gran mayoria de ellos no permitian es decir estaban protegidos
 
+### RECOMENDACIONES
+Hay que tener en cuenta que para la utilizacion de mongo es necesario que la persona tenga sus credenciales de MongoDB los cuales hay que sustituir en el archivo "mongo.py"
 
